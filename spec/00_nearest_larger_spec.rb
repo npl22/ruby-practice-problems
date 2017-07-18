@@ -44,6 +44,6 @@ describe "#nearest_larger" do
   end
 
   it "should return the nearer of two greater numbers" do
-    nearest_larger([2, 6, 9, 4, 8], 3).should == 2
+    nearest_larger([2, 6, 9, 4, 8], 3).should == 1
   end
 end

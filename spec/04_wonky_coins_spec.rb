@@ -1,5 +1,6 @@
 require '04_wonky_coins'
 require 'rspec'
+require 'pry-byebug'
 
 # Catsylvanian money is a strange thing: they have a coin for every
 # denomination (including zero!). A wonky change machine in
